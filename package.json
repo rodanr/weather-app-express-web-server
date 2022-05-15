@@ -1,0 +1,16 @@
+{
+  "name": "web-server",
+  "version": "1.0.0",
+  "description": "A weather app made using express",
+  "main": "/src/app.js",
+  "scripts": {
+    "test": "nodemon ./src/app.js -e js,hbs"
+  },
+  "author": "Rodan Ramdam",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "hbs": "^4.0.1",
+    "request": "^2.88.0"
+  }
+}
